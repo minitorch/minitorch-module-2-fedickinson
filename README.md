@@ -60,7 +60,7 @@ The linear increase in hidden nodes wasn't sufficient for the nonlinear increase
 
 ### Diagonal Dataset
 
-![Diagonal](images/diagonal.png)
+![Diagonal](images/diag.png)
 
 ### Split Dataset
 
