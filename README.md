@@ -24,9 +24,8 @@ The files that will be synced are:
 
 ![Main Results](images/summary.png)
 
-## Hyperparameters set up
 
-### Hyperparameters set up
+## Hyperparameters set up
 
 Across all four samples, kept constant:
 - The # of hidden layers (defined in the model function itself they all used)
@@ -50,7 +49,7 @@ Training time increased with hidden layer # of nodes: 0.24s -> 0.39s -> 0.58s ->
 Total time scaled dramatically: 59s → 97s → 145s → 412s (based on hidden layer node size + # of epochs)
 
 Main Takeway:
-The harder datasets (Split, Xor)  need significantly more tuning—different learning rates, more hidden nodes, or many more epochs—to reach 100% accuracy.
+The harder datasets (Split, Xor)  need significantly more tuning - different learning rates, more hidden nodes, or many more epochs - to reach 100% accuracy.
 The linear increase in hidden nodes wasn't sufficient for the nonlinear increase in problem difficulty.
 
 ## Full Training Output Logs
